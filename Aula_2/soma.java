@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-class somaif {
+class soma {
     public static void main(String[] args) {
         int a, b, c = 0;
         Scanner s = new Scanner(System.in );
@@ -13,19 +13,19 @@ class somaif {
         System.out.println("a soma dos numeros é : " + c);
 
         if (c <= 50) {
-            System.err.println("O valor de c menor ou igual a 50");
+            System.out.println("O valor de c menor ou igual a 50");
         }
 
         else if (c <= 100) {
-            System.err.println("O valor de c menor ou igual a 100");
+            System.out.println("O valor de c menor ou igual a 100");
         }
 
         else if (c <= 250) {
-            System.err.println("O valor de c menor ou igual a 250");
+            System.out.println("O valor de c menor ou igual a 250");
         }
 
         else {
-            System.err.println("O valor de c menor ou igual a 250");
+            System.out.println("O valor de c menor ou igual a 250");
         }
 
     }
