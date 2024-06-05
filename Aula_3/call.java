@@ -19,7 +19,7 @@ class call {
             else if (opcao == 2) {
                 System.out.println("Bebida");
             }
-            opcao++; 
+            break; 
         }
     }
 }
