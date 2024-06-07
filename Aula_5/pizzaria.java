@@ -109,10 +109,6 @@ class pizzaria {
                 System.out.println("Conta não será dividida.");
                 break;
         }
-    
-
-
-
 
 
         System.out.println();
