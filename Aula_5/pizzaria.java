@@ -77,7 +77,7 @@ class pizzaria {
                 e_three = "Sobremesa";
                 break;    
 
-                default:
+            default:
                 System.out.println(" ");
                 break;
 
@@ -117,9 +117,9 @@ class pizzaria {
         System.out.println();
         System.out.println("              ------------------PEDIDO-------------------               ");
         System.out.println();
-        System.out.println("  - " + e_one);
-        System.out.println("  - " + e_two);
-        System.out.println("  - " + e_three);
+        System.out.println(e_one);
+        System.out.println(e_two);
+        System.out.println(e_three);
         System.out.println();
         System.out.println("Total : R$" + total);
         System.out.println("10% garcom : R$" + g);
@@ -127,7 +127,6 @@ class pizzaria {
         System.out.println("Valor da conta por pessoa : R$" + total_person +" "+ q_amount + "x");
         System.out.println(); 
         System.out.println("-------------------- Desenvolvido por Romulo Franca ---------------------");
-
 
     }
 
