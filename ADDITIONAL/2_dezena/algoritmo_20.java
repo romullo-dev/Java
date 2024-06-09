@@ -5,6 +5,7 @@ class algoritmo_20 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int amosBlusas, amosNove = 0;
+        float t = 0;
 
 
         
@@ -12,6 +13,10 @@ class algoritmo_20 {
         amosBlusas = s.nextInt();
         System.out.println("QUANTIDADE DE NOVELOS GASTOS : ");
         amosNove = s.nextInt();
+
+        t = amosNove / amosBlusas;
+
+        System.out.println(t);
 
 
     }
