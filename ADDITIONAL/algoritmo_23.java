@@ -1,28 +1,20 @@
 import java.util.Scanner;
 
-class algoritmo_22 {
+class algoritmo_23 {
 
     public static void main(String[] args) {
         Scanner s = new Scanner (System.in);
-        float t_350 ,  t__600 , l_1 , total = 0;
+        float a_p , a_person, s_p, s_person = 0;
 
-        System.out.println("QUANTIFAFE  : ");
-        t_350 = s.nextFloat();
-        System.out.println("GARRAFA 600 ML : ");
-        t__600 = s.nextFloat();
-        System.out.println("GARRAFA 1 L : ");
-        l_1 = s.nextFloat();
+        System.out.println("DIGITE A SUA ALTURA : ");
+        a_person = s.nextFloat(); 
+        System.out.println("DIGITE A ALTURA DA SOBRA DO PREDIO : ");
+        s_p = s.nextFloat(); 
+        System.out.println("DIGITE A ALTURA DA SUA SOBRA : ");
+        s_person = s.nextFloat(); 
 
-        t_350 = (350 * t_350) / 1000; 
-        t__600 = (600 * t__600) / 1000;
-        l_1 = 1 * l_1;
+        a_p = (a_person * s_p) / s_person;
 
-        total = t_350 + t__600 + l_1;
-
-        System.out.println(total + " LITROS");
-       
-
-
-
+        System.out.println("ALTURA : " + a_p + " METROS");
     }
 }

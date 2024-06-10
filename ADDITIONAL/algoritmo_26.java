@@ -1,0 +1,4 @@
+class algoritmo_26 {
+
+     
+}
