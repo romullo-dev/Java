@@ -110,7 +110,6 @@ class pizzaria {
                 break;
         }
 
-
         System.out.println();
         System.out.println("       --------------------CUPOM NAO FISCAL--------------------         ");
         System.out.println("------------------------------------------------------------------------");
@@ -127,7 +126,5 @@ class pizzaria {
         System.out.println("Valor da conta por pessoa : R$" + total_person +" "+ q_amount + "x");
         System.out.println(); 
         System.out.println("-------------------- Desenvolvido por Romulo Franca ---------------------");
-
     }
-
 }

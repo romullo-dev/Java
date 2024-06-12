@@ -1,12 +1,10 @@
 import static java.lang.System.out;
 import java.util.Scanner;
 
-
 class algoritmo_31 {
 
     public static void main (String [] args){
-        int nomberAleatorio, n= 0;
-         
+        int nomberAleatorio, n = 0, c = 1;
 
         do {  
             Scanner s = new Scanner (System.in);  
@@ -19,8 +17,9 @@ class algoritmo_31 {
             } else if (nomberAleatorio > n){
                 n = nomberAleatorio;
             }
-        
-            
-            }  while (nomberAleatorio < 6);
+            c ++;
+        }  while (c < 101);
+
+            out.print("MAIOR NUMERO : " +  n);
     } 
 }
