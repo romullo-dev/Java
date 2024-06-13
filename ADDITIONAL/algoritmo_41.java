@@ -7,22 +7,23 @@ class algoritmo_41 {
         Scanner s = new Scanner (System.in);
         int R, C = 1;
         out.println ("ESCOLHA UM NUMERO : (1 A 10)");
-        int  N = s.nextInt();      
+        int  N = s.nextInt();  
 
+        if (N > 10 || N < 1) {
+                out.println("NUMERO INVALIDO");
+
+        } else { 
         do { 
-            if (N < 10 || N > 1) {
+            
+            
                 
-
                 R = N * C;
                 out.println (C + " X " + N + " = " +R);
-            } else {
-                out.println("NUMERO INVALIDO");
-            }
+        
+                C++;
+        } while (C < 11);
 
-            
-            
-            C++;
-        } while (C < 11 && N < 10);
+        }
         
     }
 }
