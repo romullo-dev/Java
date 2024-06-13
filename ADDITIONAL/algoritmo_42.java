@@ -5,14 +5,14 @@ class algoritmo_42 {
 
     public static void main(String[] args) {
         Scanner s = new Scanner (System.in);
-        int C = 1;
+        int C = 0;
 
         out.println("ESCREVA UM NUMERO ALEATORIO");
         int N = s.nextInt();
 
         do { 
             out.println(C);
-            C++;
-        } while (C < 5);
+            C += 2;
+        } while (C < 10);
     }
 }
