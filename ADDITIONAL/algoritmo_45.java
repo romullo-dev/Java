@@ -8,13 +8,21 @@ import java.util.Scanner;
 public class algoritmo_45 {
     public static void main(String[] args) {
         Scanner s = new Scanner (System.in);
+        int C = 0;
         
-        out.println("Escreva sua idade :  ");
-        out.println("Escreva a sua idade : ");
+        do {   
+            out.println("Escreva sua idade :  ");
+            int I = s.nextInt();
+            out.println("Escreva a sua altura : ");
+            float H = s.nextFloat();
+
+            C++;    
+
+        } while (C <= 5);
 
 
         out.println("QUANTIDADE DE PESSOAS MAIOR DE 50 ANOS : ");
-        out.println(" A média das Alturas das pessoas com idade entre 10 e 20 anos : ");
+        out.println("A média das Alturas das pessoas com idade entre 10 e 20 anos : ");
         out.println("Porcentagem das pessoas com peso inferior a 40 quilos entre todas as pessoas analisadas : ");
 
     }
