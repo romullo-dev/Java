@@ -12,17 +12,24 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         Scanner s = new Scanner (System.in);
+        int C  = 1;
+        float T = 0;
 
-        out.println("NOTA 1 BIMESTRE");
-        float N1 = s.nextFloat();
-        out.println("NOTA 2 BIMESTRE");
-        float N2 = s.nextFloat();
-        out.println("NOTA 3 BIMESTRE");
-        float N3 = s.nextFloat();
-        out.println("NOTA 4 BIMESTRE");
-        float N4 = s.nextFloat();
-        out.println("QUANTIDADE DE FALTAS");
+        do {
+            out.println("NOTA " + C + " BIMESTRE : ");
+            float N = s.nextFloat();
+            C++;
+            T += N;
+        } while (C <= 4);
+
+        out.println("FALTAS : ");
         int F = s.nextInt();
 
+        if (F > 10) {
+            out.println("REPROVADO POR FALTA");
+        } else {
+            Sit.situacao(T);
+        }
+        
     }
 }
