@@ -5,7 +5,7 @@
 import static java.lang.System.out;
 import java.util.Scanner;
 
-public class algoritmo_45 {
+public class c {
     public static void main(String[] args) {
         Scanner s = new Scanner (System.in);
         int C = 0;

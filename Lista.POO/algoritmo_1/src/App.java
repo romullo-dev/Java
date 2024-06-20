@@ -1,3 +1,7 @@
+/*1 ) Faça um classe em Java para receber dois atributos inteiro Inicial e final. Faça um método chamado calcular para calcular
+a diferença entre final e inicial, mostre o resultado dessa operação usando a classe principal main. Faça esse projeto de duas formas: 
+Em um único arquivo e em 2 arquivos, ou seja usando o método main junto do arquivo da classe que você criou e outro programa em arquivos separados.*/ 
+
 import java.util.Scanner;
 
 public class App {
