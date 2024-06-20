@@ -4,10 +4,25 @@ Exemplo:
 Decrescente 26,25,24,23,22,21,20,19.....0
 Crescente 28,29,30,31,32...100
        Esse projeto deverá te três arquivos o App principal e as classes Crescente e Decrescente.*/
+
+import static java.lang.System.out;
 import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("ESCREVA UM NUMERO ALEATORIO : ");
+        Scanner s = new Scanner (System.in);
+
+        out.println("ESCREVA UM NUMERO ALEATORIO : ");
+        int N = s.nextInt();
+
+        if (N >= 10 && N >=99) {
+            out.println("NUMERO INVALIDO");
+        } else {
+            out.println("CRESCENTE : ");
+            Cresc.crescer(N);
+            out.println("DECRESCENTE : ");
+            Desc.descr(N);
+        }
+
     }
 }
