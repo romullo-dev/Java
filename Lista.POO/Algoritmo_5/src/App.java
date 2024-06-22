@@ -7,6 +7,8 @@ public class App {
         Scanner s = new Scanner (System.in);
         int C = 1;
         int R = 0;
+        int resp =0;
+
         while (C <= 2) {
             do { 
                 out.println("                                                                                                                                    ");
@@ -27,11 +29,12 @@ public class App {
                 out.println("|  3 - Polimorfismo                                                                                                                |");
                 out.println("|  4 - Proceduralismo                                                                                                              |");
                 R = s.nextInt();
-                if (R != 3) {
-                out.println ("|                                                             ACEERTOUU                                                            |");        
-                } else {
-                out.println ("|                                                             ERROOUUUU                                                            |"); 
-                }
+
+                resp = 4;
+
+                pontos.pontuacao(R,resp);
+                pontos.resultado(R,resp);
+
                 
             } while (R != 2);
 
