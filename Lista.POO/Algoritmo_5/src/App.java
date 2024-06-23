@@ -7,15 +7,16 @@ public class App {
         Scanner s = new Scanner (System.in);
         int C = 1;
         int R = 0;
-        int resp =0;
+        int resp =0, P = 0;
 
-        while (C <= 2) {
+        while (C <= 1) {
             do { 
                 out.println("                                                                                                                                    ");
                 out.println(" ---------------------------------------------------------------------------------------------------------------------------------- ");
                 out.println("|                                                                                                                                  |");
                 out.println("|                                   ************************** QUIZ **************************                                     |");
                 out.println("|                                                                                                                                  |");
+                out.println("|                                                                                                                    PERGUNTA ("+C+")  |");
                 out.println("|                                                                                                                                  |");
                 out.println("|                                               PROGRAMACAO ORIENTADA A OBJETO                                                     |");
                 out.println("|                                                                                                                                  |");
@@ -27,21 +28,30 @@ public class App {
                 out.println("|  1 - Encapsulamento                                                                                                              |");
                 out.println("|  2 - Herança                                                                                                                     |");
                 out.println("|  3 - Polimorfismo                                                                                                                |");
-                out.println("|  4 - Proceduralismo                                                                                                              |");
+                out.println("|  4 - Proceduralismo                                                                                                              |"); 
                 R = s.nextInt();
 
-                resp = 4;
-
-                pontos.pontuacao(R,resp);
-                pontos.resultado(R,resp);
 
                 
-            } while (R != 2);
+
+
+
+                
+                resp = 4;
+
+                P = pontos.pontuacao(R,resp);
+                 
+                out.println("|                                                     PONTUACAO ("+P+")                                                               |");
+
+                pontos.resultado(R,resp);
+
+
+                
+            } while (R != resp);
 
 
 
 
-            out.println("|                                                           ("+C+")                                                                   |");
 
 
 

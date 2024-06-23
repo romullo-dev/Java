@@ -8,9 +8,9 @@ public class pontos  {
     }
     public static void resultado  (int R, int resp ) {
         if (R == resp) {
-          System.out.println ("|                                                             ACEERTOUU                                                            |");        
+          System.out.println ("|                                                             CORRETO                                                              |");        
         } else {
-          System.out.println ("|                                                             ERROOUUUU                                                            |"); 
+          System.out.println ("|                                                            INCORRETO                                                             |"); 
 
         }
  
