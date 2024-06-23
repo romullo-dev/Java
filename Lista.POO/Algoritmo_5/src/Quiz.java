@@ -21,9 +21,6 @@ public class Quiz {
             out.println("|  2 - Herança                                                                                                                     |");
             out.println("|  3 - Polimorfismo                                                                                                                |");
             out.println("|  4 - Proceduralismo                                                                                                              |"); 
-           
-
-           
             out.println("|                                                     PONTUACAO ("+P+")                                                                |");
             out.println("|                                                                                                                                  |");
             
@@ -51,10 +48,8 @@ public class Quiz {
             out.println("|  2 - Um tipo de dado primitivo                                                                                                   |");
             out.println("|  3 - Uma instância de uma classe                                                                                                 |");
             out.println("|  4 - Uma biblioteca de funções                                                                                                   |"); 
-           
             out.println("|                                                     PONTUACAO ("+P+")                                                               |");
             out.println("|                                                                                                                                  |");
-            
             out.println(" ---------------------------------------------------------------------------------------------------------------------------------- ");
             out.println("                                                                                                                                    ");
     }
@@ -79,10 +74,8 @@ public class Quiz {
         out.println("|  2 - Abstração                                                                                                                   |");
         out.println("|  3 - Herança                                                                                                                     |");
         out.println("|  4 - Polimorfismo                                                                                                                |"); 
-       
         out.println("|                                                     PONTUACAO ("+P+")                                                               |");
-        out.println("|                                                                                                                                  |");
-        
+        out.println("|                                                                                                                                  |");   
         out.println(" ---------------------------------------------------------------------------------------------------------------------------------- ");
         out.println("                                                                                                                                    ");
     }
@@ -107,10 +100,8 @@ public class Quiz {
         out.println("|  2 -  A capacidade de uma classe herdar métodos de várias classes                                                                |");
         out.println("|  3 - A capacidade de um objeto conter outros objetos                                                                             |");
         out.println("|  4 - A capacidade de uma classe ter várias subclasses                                                                            |"); 
-       
         out.println("|                                                     PONTUACAO ("+P+")                                                               |");
         out.println("|                                                                                                                                  |");
-        
         out.println(" ---------------------------------------------------------------------------------------------------------------------------------- ");
         out.println("                                                                                                                                    ");
     }
@@ -135,15 +126,33 @@ public class Quiz {
         out.println("|  2 - Herança                                                                                                                     |");
         out.println("|  3 - Funções de callback                                                                                                         |");
         out.println("|  4 - Polimorfismo                                                                                                                |"); 
-       
         out.println("|                                                     PONTUACAO ("+P+")                                                               |");
         out.println("|                                                                                                                                  |");
-        
         out.println(" ---------------------------------------------------------------------------------------------------------------------------------- ");
         out.println("                                                                                                                                    ");
     }
 
-
-
-
+    public static void Resultado (int R , int resp, int P, int C) {
+        out.println("                                                                                                                                    ");
+        out.println(" ---------------------------------------------------------------------------------------------------------------------------------- ");
+        out.println("|                           _____   ____  _____                                                                                    |");
+        out.println("|                 |     |  |     |  |     |                                                                                        |");
+        out.println("|                  |   |   |     |  |     |----                                                                                    |");
+        out.println("|                    |     |_____|  |___  |____                                                                                    |");
+        out.println("|                                                                                                                                  |");
+        out.println("|         ____     _____    _                _____                                                                                 |");
+        out.println("|        |        |     |  | |  /  |     |  |     |  |     |  |                                                                    |");
+        out.println("|        |   ___  |-----|  | /_/   |-----|  |     |  |     |  |                                                                    |");
+        out.println("|        |____|   |     |  |       |     |  |_____|  |_____|  |                                                                    |");
+        out.println("|                                                             °                                                                    |");
+        out.println("|                                                                                                                                  |");
+        out.println("|                                                                                                                                  |");
+        out.println("|                                                                                                                                  |");
+        out.println("|                                                                                                                                  |");
+        out.println("|                                                                                                                                  |"); 
+        out.println("|                                                     PONTUACAO ("+P+")                                                               |");
+        out.println("|                                                                                                                                  |");
+        out.println(" ---------------------------------------------------------------------------------------------------------------------------------- ");
+        out.println("                                                                                                                                    ");
+    }
 }

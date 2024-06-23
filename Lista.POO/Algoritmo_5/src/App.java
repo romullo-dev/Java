@@ -2,7 +2,6 @@
 perguntas podem ser sobre orientação a objetos. Cada resposta certa vale 1 ponto no final mostra a pontuação obtida. */
 
 import java.util.Scanner;
-
 public class App {
     public static void main(String[] args) throws Exception {
         int C = 1;
@@ -10,7 +9,7 @@ public class App {
         int R = 0;
         int resp =0, P = 0;
 
-        while (C <= 2) {
+        while (C <= 5) {
 
             do { 
                 Quiz.Pergunta_1(R , resp, P,C);
@@ -84,6 +83,8 @@ public class App {
             } while (R != resp);
 
         } 
+
+        Quiz.Resultado(R, resp, P, C);
 
     }
 }
